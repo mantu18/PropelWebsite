@@ -84,14 +84,14 @@
 }
 .info-card{
   width: 60%;
-  height: 300px;
+  height: auto;
   background-color: aqua;
 }
 
 .img-card{
   background-color: aquamarine;
   width: 40%;
-  height: 300px;
+  height: auto;
 }
 @media (min-width:768px){
 .nav-container{
@@ -119,4 +119,8 @@
   .info-card{
     width: 100%;
   }
+}
+
+.points-container{
+  margin: 20px 0;
 }

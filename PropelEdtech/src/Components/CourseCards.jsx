@@ -3,6 +3,7 @@ import {Button} from 'react-bootstrap';
 // import  {faHouse } from '@awesome.me/kit-KIT_CODE/icons/classic/solid'
 import { FaShareAlt } from "react-icons/fa";
 import { IoRocketSharp } from "react-icons/io5";
+import fullstack from '../assets/images/fullstack.png'
 
 
 import './CourseCards.css'
@@ -29,7 +30,9 @@ export default function CourseCards(){
             
             </div>
             
-            <div className="img-card">ee</div>
+            <div className="img-card">
+                <img src={fullstack}></img>
+            </div>
         </div>
     );
 }
