@@ -1,0 +1,122 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+.body-container{
+  overflow-x:hidden;
+}
+
+.header{
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+}
+.logo-container{
+  display: flex;
+  gap: calc(var(--ug)*6.25);
+  align-items: center;
+
+}
+.btn-container{
+  padding-top: calc(var(--ug)*0.75);
+  padding-bottom: calc(var(--ug)*0.75);
+
+}
+.course-button{
+  background-color: black;
+  color: aliceblue;
+}
+
+.a-container{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+.a-items{
+  margin: auto ;
+}
+
+.breadcrumb-container{
+  margin-top: 20px;
+}
+.cards-container{
+  display: flex;
+}
+.info-card{
+  width: 60%;
+  height: 300px;
+  background-color: aqua;
+}
+
+.img-card{
+  background-color: aquamarine;
+  width: 40%;
+  height: 300px;
+}
+@media (min-width:768px){
+.nav-container{
+  padding-left: calc(var(--ug)*1.25);
+  padding-right: calc(var(--ug)*1.25);
+  margin-top: auto;
+  margin-bottom: auto;
+  display: flex;
+  flex-direction: column;
+  max-width: 90rem;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: aquamarine;
+}
+}
+
+@media (max-width:768px){
+  .cards-container{
+    display: block;
+  }
+  .img-card{
+    width: 100%;
+  }
+  .info-card{
+    width: 100%;
+  }
+}
