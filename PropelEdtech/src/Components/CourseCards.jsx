@@ -22,10 +22,38 @@ export default function CourseCards(){
                 <h3>The most trusted way to become an</h3>
                 <h1>Expert Full-Stack Developer</h1>
                 <div className='points-container'>
-                <IoRocketSharp />
-                <p>sdrtfghj</p>
-                </div>
+                    <div className='point'>
+                        <IoRocketSharp />
+                        <h5>Land your dream tech job</h5>
+                    </div>
                 
+                    <div className='point'>
+                        <IoRocketSharp />
+                        <h5>hello</h5>
+                    </div>
+                    <div className='point'>
+                        <IoRocketSharp />
+                        <h5>hello</h5>
+                    </div>
+                    <div className='point'>
+                        <IoRocketSharp />
+                        <h5>hello</h5>
+                    </div>
+                    <div className='point'>
+                        <IoRocketSharp />
+                        <h5>hello</h5>
+                    </div>
+                    <div className='btn-1'>
+                        <button >apply now</button>
+                        
+                        <button >Download Syllabus</button>
+                        
+                    </div>
+                    
+                
+                    
+                    </div>
+                    
                 </div>
             
             </div>

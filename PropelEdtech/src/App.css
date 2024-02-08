@@ -42,7 +42,7 @@
 }
 
 
-.body-container{
+body{
   overflow-x:hidden;
 }
 
@@ -85,7 +85,7 @@
 .info-card{
   width: 60%;
   height: auto;
-  background-color: aqua;
+  /* background-color: aqua; */
 }
 
 .img-card{
@@ -123,4 +123,200 @@
 
 .points-container{
   margin: 20px 0;
+  flex-direction: column;
+}
+.point{
+  display: flex;
+  gap: 10px;
+}
+.btn-1{
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  
+  gap: 50px;
+  display: flex;
+}
+.activity{
+  display: flex;
+  justify-items: center;
+  margin-top: 20px;
+  margin-left: 50px;
+  width: 90%;
+  height: 180px;
+  border: solid 2px black;
+  box-sizing: border-box;
+  border-radius: 30px;
+  
+}
+.act-1{
+  display: flex;
+  margin-left: 30px;
+  margin-top: 30px;
+  gap: 30px;
+}
+
+.feature{
+  width: 150px;
+  height: 140px;
+  
+  border-right: solid 2px;
+  display: flex;
+  margin-right: 20px;
+  align-items: center ;
+  justify-content: center;
+  /* margin: auto ; */
+  margin-bottom: 30px;
+  
+}
+.content-1{
+  display: flex;
+  margin-left: 0px;
+  position: sticky ;
+  top: 0;
+  margin-top: 30px;
+
+ 
+}
+.inner-cont{
+  display: flex;
+  margin-top: 30px;
+  width: 60%;
+  height: 100px;
+  padding: 25px;
+  border: 2px solid;
+  border-radius: 10px;
+  gap: 20px;
+  animation-duration: 32s;
+  position: sticky;
+  top: 20px;
+  
+}
+.inner-cont{
+  animation-name: example;
+  animation-duration: 32s;
+  animation-timing-function: ease;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+}
+.bg-img{
+  width: 100%; 
+  height: 300px;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-image: url('react-img.webp'); */
+  background-image: url('https://i.pinimg.com/originals/5e/a6/57/5ea65718da48f1fb50747e185f69740e.gif');
+  background-size: cover;
+  color: beige;
+  z-index: -1;
+}
+
+.qwe{
+  height: 60px;
+  border: solid 2px;
+  margin: 20px 0;
+  position: sticky;
+  top: 0;
+  background-color: #ffffff; /* Optional: Add a background color */
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.tabs-container {
+  width: 100%;
+}
+
+.tabs {
+  display: flex;
+}
+
+.tab {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.tab.active {
+  background-color: #ddd;
+}
+
+.tab-content {
+  margin-top: 10px;
+}
+.clm-1{
+  display: flex;
+  margin-top: 30px;
+}
+.clm-2{
+  display: flex;
+}
+.clm-3{
+  margin-top: 20px;
+  width: 100%;
+  height:200px;
+  border: solid 2px;
+  border-radius: 20px;
+  display: flex;
+}
+.cnt-1{
+  position: relative;
+  margin: 33px;
+  width: 120px;
+  height: 120px;
+  border: solid 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  border-radius: 10px;
+}
+.display-items{
+  width: 100%;
+  height: 400px;
+  margin-top: 30px;
+  border: 2px solid;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  
+}
+.disp-1{
+  display: flex;
+  margin-top: 30px;
+  margin-left: 15px;
+}
+.disp-2{
+  display: flex;
+  padding: 20px;
+}
+.cert-1{
+  display: flex;
+  margin-top: 80px;
+}
+.cert-2{
+  display: flex;
+  margin-left: 0;
+  margin-top: 25px;
+}
+.tab-1{
+  display: flex;
+  border: 2px solid;
+  width: 100%;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+}
+
+.activeModule{
+  border: solid 2px orange;
+}
+
+.y77{
+  width: 120px;
+  height: 40px;
+  border: solid black 2px;
 }
