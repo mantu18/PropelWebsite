@@ -13,6 +13,8 @@ import Display from "./Components/Display";
 import Certification from "./Components/Certificate";
 import Tabcertificate from "./Components/CertTab";
 import AnchorLink from "react-anchor-link-smooth-scroll";
+import FeeComponent from "./Components/FeeComponent";
+import ComparisionComponent from "./Components/ComparisionComponent";
 
 function App() {
   return (
@@ -44,8 +46,10 @@ function App() {
       {/* <Tabcomponent></Tabcomponent> */}
       <Curriculum></Curriculum>
       {/* <Display></Display> */}
-      <Certification></Certification>
+      {/* <Certification></Certification> */}
+      <FeeComponent></FeeComponent>
       <Tabcertificate></Tabcertificate>
+      <ComparisionComponent></ComparisionComponent>
       <BgImage></BgImage>
       <BgImage></BgImage>
       <BgImage></BgImage>
