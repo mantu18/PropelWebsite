@@ -15,6 +15,8 @@ import Tabcertificate from "./Components/CertTab";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import FeeComponent from "./Components/FeeComponent";
 import ComparisionComponent from "./Components/ComparisionComponent";
+import ScrollableNavbar from './Components/ScrollableNavbar'
+import SlickNavbar from "./Components/SlickNavbar";
 
 function App() {
   return (
@@ -22,11 +24,8 @@ function App() {
       <NavbarComponent></NavbarComponent>
       <BreadcrumbComponent></BreadcrumbComponent>
       <CourseCards></CourseCards>
-      <div className="qwe">
-      {/* <AnchorLink href="#certificate">
-          <button>Courses</button>
-      </AnchorLink> */}
-          {/* <a href="#certificate">cert</a> */}
+      <ScrollableNavbar></ScrollableNavbar>
+      {/* <div className="qwe">
           <a href="#cirriculum">
           <div className="y77">Cirriculum</div>
           </a>
@@ -42,8 +41,9 @@ function App() {
           <a href="#certificate">
           <div className="y77">Fee</div>
           </a>
-      </div>
+      </div> */}
       {/* <Tabcomponent></Tabcomponent> */}
+      {/* <SlickNavbar></SlickNavbar> */}
       <Curriculum></Curriculum>
       {/* <Display></Display> */}
       {/* <Certification></Certification> */}

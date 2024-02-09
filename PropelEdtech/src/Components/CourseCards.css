@@ -20,5 +20,5 @@ h2{
 }
 .points-container{
     display: flex;
-    gap:15px;
+    gap:10px;
 }

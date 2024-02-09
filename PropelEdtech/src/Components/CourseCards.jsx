@@ -10,7 +10,7 @@ import './CourseCards.css'
 export default function CourseCards(){
     return(
         <div className='cards-container'>
-            <div className="info-card">
+            <div className="info-card lh-1">
                 <div className='button-row'>
                 <Button variant="primary">Immersive Learning</Button>{' '}
                 <Button variant="primary">Popular</Button>{' '}
@@ -59,7 +59,7 @@ export default function CourseCards(){
             </div>
             
             <div className="img-card">
-                <img src={fullstack}></img>
+                <img className='courseImg' src={fullstack}></img>
             </div>
         </div>
     );
