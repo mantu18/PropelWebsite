@@ -17,6 +17,7 @@ import FeeComponent from "./Components/FeeComponent";
 import ComparisionComponent from "./Components/ComparisionComponent";
 import ScrollableNavbar from './Components/ScrollableNavbar'
 import SlickNavbar from "./Components/SlickNavbar";
+import Certified from "./Components/CertifiedPage";
 
 function App() {
   return (
@@ -50,6 +51,7 @@ function App() {
       <FeeComponent></FeeComponent>
       <Tabcertificate></Tabcertificate>
       <ComparisionComponent></ComparisionComponent>
+      <Certified></Certified>
       <BgImage></BgImage>
       <BgImage></BgImage>
       <BgImage></BgImage>
