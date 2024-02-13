@@ -20,6 +20,7 @@ import SlickNavbar from "./Components/SlickNavbar";
 import Certified from "./Components/CertifiedPage";
 import StickyScrollableNav from "./Components/StickyScrollableNav";
 import LandingComponent from "./Components/LandingComponent";
+import TechnologyCard from "./Components/Technologies-Card";
 // import SpaceTime from "./Components/SpaceTime";
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
     <>
     <div className="bg">
       <LandingComponent></LandingComponent>
+      <TechnologyCard></TechnologyCard>
       <NavbarComponent></NavbarComponent>
       <BreadcrumbComponent></BreadcrumbComponent>
       <CourseCards></CourseCards>
