@@ -1,4 +1,5 @@
 import {useState } from "react";
+import CurriculumNav from "./CurriculumNav";
 
 export default function Curriculum(){
     const [module, setModule] = useState(1);
@@ -43,6 +44,7 @@ export default function Curriculum(){
 
     return(
         <>
+        <div id="cirriculum">
         <div className="clm-1">
             <h4>FULL-STACK DEVELOPMENT BOOTCAMP CURRICULUM</h4>
         </div>
@@ -52,7 +54,7 @@ export default function Curriculum(){
         <div className="clm-2">
             <h2>World-Class Curriculum</h2>
         </div>
-        <div className="clm-3">
+        {/* <div className="clm-3">
              <div className={`cnt-1 ${module===1?'activeModule':null}`} onClick={()=>handleClick(1)}>
                 <p>Module-1</p>   
              </div>
@@ -72,14 +74,48 @@ export default function Curriculum(){
                 <p>Module-6</p>   
              </div>
                  
-        </div>
-        <div className="display-items" id="cirriculum">
+        </div> */}
+        <CurriculumNav></CurriculumNav>
+        <div className="display-items" id="module1">
             <div className="disp-1">
              <h5>{arr[module].title}</h5>
              </div>
              <div className="disp-2">
                 <h6>{arr[module].description}</h6>
              </div>
+        </div>
+        <div className="display-items" id="module2">
+            <div className="disp-1">
+             <h5>{arr[module].title}</h5>
+             </div>
+             <div className="disp-2">
+                <h6>{arr[module].description}</h6>
+             </div>
+        </div>
+        <div className="display-items" id="module3">
+            <div className="disp-1">
+             <h5>{arr[module].title}</h5>
+             </div>
+             <div className="disp-2">
+                <h6>{arr[module].description}</h6>
+             </div>
+        </div>
+        <div className="display-items" id="module4">
+            <div className="disp-1">
+             <h5>{arr[module].title}</h5>
+             </div>
+             <div className="disp-2">
+                <h6>{arr[module].description}</h6>
+             </div>
+        </div>
+        <div className="display-items" id="module5">
+            <div className="disp-1">
+             <h5>{arr[module].title}</h5>
+             </div>
+             <div className="disp-2">
+                <h6>{arr[module].description}</h6>
+             </div>
+        </div>
         </div>
         </>
     );

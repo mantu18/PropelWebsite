@@ -1,0 +1,7 @@
+{
+  "name": "propeledtech",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "custom"
+}

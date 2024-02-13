@@ -12,12 +12,13 @@ function CustomScroll() {
 
   return (
     <>
-    <div className="scroll-nav-container">
+    {/* className="scroll-nav-container " */}
+    <div  className="scroll-nav-container">
     <button className="scroll-button scroll-left" onClick={() => scrollContainer(-50)}>
         &#10094;
       </button>
       
-    <div className="scrollable-nav" ref={containerRef} >
+    <div className="scrollable-nav " ref={containerRef} >
     
       
       <div className="inner"  >

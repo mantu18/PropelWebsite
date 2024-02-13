@@ -18,13 +18,19 @@ import ComparisionComponent from "./Components/ComparisionComponent";
 import ScrollableNavbar from './Components/ScrollableNavbar'
 import SlickNavbar from "./Components/SlickNavbar";
 import Certified from "./Components/CertifiedPage";
+import StickyScrollableNav from "./Components/StickyScrollableNav";
+import LandingComponent from "./Components/LandingComponent";
+// import SpaceTime from "./Components/SpaceTime";
 
 function App() {
   return (
     <>
+    <div className="bg">
+      <LandingComponent></LandingComponent>
       <NavbarComponent></NavbarComponent>
       <BreadcrumbComponent></BreadcrumbComponent>
       <CourseCards></CourseCards>
+      <BgImage></BgImage>
       <ScrollableNavbar></ScrollableNavbar>
       {/* <div className="qwe">
           <a href="#cirriculum">
@@ -46,18 +52,16 @@ function App() {
       {/* <Tabcomponent></Tabcomponent> */}
       {/* <SlickNavbar></SlickNavbar> */}
       <Curriculum></Curriculum>
+      <StickyScrollableNav></StickyScrollableNav>
       {/* <Display></Display> */}
       {/* <Certification></Certification> */}
       <FeeComponent></FeeComponent>
       <Tabcertificate></Tabcertificate>
       <ComparisionComponent></ComparisionComponent>
       <Certified></Certified>
-      <BgImage></BgImage>
-      <BgImage></BgImage>
-      <BgImage></BgImage>
-      <BgImage></BgImage>
-      <BgImage></BgImage>
       
+      {/* <SpaceTime></SpaceTime> */}
+      </div>
     </>
   );
 }
