@@ -58,9 +58,6 @@ export default function CourseCards(){
                         <button >Download Syllabus</button>
                         
                     </div>
-                    
-                
-                    
                     </div>
                     
                 </div>

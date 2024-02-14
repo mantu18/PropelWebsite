@@ -20,52 +20,31 @@ import SlickNavbar from "./Components/SlickNavbar";
 import Certified from "./Components/CertifiedPage";
 import StickyScrollableNav from "./Components/StickyScrollableNav";
 import LandingComponent from "./Components/LandingComponent";
-import TechnologyCard from "./Components/Technologies-Card";
-// import SpaceTime from "./Components/SpaceTime";
+import TechnologyCard from "./Components/TechnologyCard";
+import UspComponent from "./Components/UspComponent";
+import {createBrowserRouter, RouterProvider} from'react-router-dom';
+import Home from "./Pages/Home";
+import Coursepage from "./Pages/CoursePage";
+
+const router = createBrowserRouter([
+{path: '/', element: <Home></Home>},
+{path: '/course', element: <Coursepage></Coursepage>}
+]);
 
 function App() {
   return (
-    <>
-    <div className="bg">
-      <LandingComponent></LandingComponent>
-      <TechnologyCard></TechnologyCard>
-      <NavbarComponent></NavbarComponent>
-      <BreadcrumbComponent></BreadcrumbComponent>
-      <CourseCards></CourseCards>
-      <BgImage></BgImage>
-      <ScrollableNavbar></ScrollableNavbar>
-      {/* <div className="qwe">
-          <a href="#cirriculum">
-          <div className="y77">Cirriculum</div>
-          </a>
-          <a href="#certificate">
-          <div className="y77">Certificate</div>
-          </a>
-          <a href="#certificate">
-          <div className="y77">Projects</div>
-          </a>
-          <a href="#certificate">
-          <div className="y77">Compare</div>
-          </a>
-          <a href="#certificate">
-          <div className="y77">Fee</div>
-          </a>
-      </div> */}
-      {/* <Tabcomponent></Tabcomponent> */}
-      {/* <SlickNavbar></SlickNavbar> */}
-      <Curriculum></Curriculum>
-      <StickyScrollableNav></StickyScrollableNav>
-      {/* <Display></Display> */}
-      {/* <Certification></Certification> */}
-      <FeeComponent></FeeComponent>
-      <Tabcertificate></Tabcertificate>
-      <ComparisionComponent></ComparisionComponent>
-      <Certified></Certified>
-      
-      {/* <SpaceTime></SpaceTime> */}
-      </div>
-    </>
+    <RouterProvider router={router}></RouterProvider>
   );
 }
 
 export default App;
+ {/* <BreadcrumbComponent></BreadcrumbComponent>
+      <CourseCards></CourseCards>
+      <BgImage></BgImage>
+      <ScrollableNavbar></ScrollableNavbar>
+      <Curriculum></Curriculum>
+      <StickyScrollableNav></StickyScrollableNav>
+    
+      <FeeComponent></FeeComponent>
+      <Tabcertificate></Tabcertificate>
+      <ComparisionComponent></ComparisionComponent> */}

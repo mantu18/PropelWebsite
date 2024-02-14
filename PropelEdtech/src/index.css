@@ -12,6 +12,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   --ug:16px;
+  --lh1: 150px
 }
 
 a {
@@ -71,11 +72,13 @@ button:focus-visible {
 @media (max-width:479px){
   :root{
     --ug:11.2px;
+    --lh1: 75px;
   }
 }
 
 @media (max-width:1366px){
   :root{
     --ug:14px;
+    --lh1:100px;
   }
 }

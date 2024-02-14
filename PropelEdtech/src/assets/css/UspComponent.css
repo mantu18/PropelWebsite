@@ -1,0 +1,99 @@
+.usp-container{
+    background-color: black;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+
+}
+
+.usp{
+    width: auto;
+    height: auto;
+    /* border: white solid 2px; */
+    display: flex;
+    gap: 20px;
+    /* transition-property: transform 0.3s ease 0s; */
+    
+}
+/* @keyframes fade-in{
+    from{scale: .8; opacity: 0;}
+    to{scale: 1.2; opacity:1 ;}
+  } */
+
+  .left{
+    animation-name: slide-right;
+  animation-duration: 4s;
+  animation-timeline: view();
+  }
+
+  @keyframes slide-right {
+    from {
+      margin-left: -10vw;
+    }
+    50% {
+      margin-left: -5vw;
+    }
+    to {
+      margin-left: 0px;
+    }
+  }
+
+.right{
+    animation-name: slide-left;
+  animation-duration: 4s;
+  animation-timeline: view();
+}
+
+@keyframes slide-left {
+    from {
+      margin-right: -10vw;
+    }
+    50% {
+      margin-right: -5vw;
+    }
+    to {
+      margin-right: 0px;
+    }
+  }
+
+section{
+    width: auto;
+    height: auto;
+    /* border: white solid 2px; */
+    display: flex;
+    gap: 20px;
+}
+
+.uspImg{
+    width: 20vh;
+    height: 20vh;
+    /* border: solid red 2px; */
+}
+
+.usp-description{
+    width: 50vw;
+    height: 20vh;
+    /* border: blue solid 2px; */
+}
+
+.hidden{
+    opacity: 0;
+    transition: all 1s;
+}
+.show{
+    opacity: 1;
+}
+.uspAnimate{
+    transform: translateY(-300);
+}
+.usp:hover{
+    transform: translateY(-300);
+}
+
+.uspImage{
+    width: 175px;
+    border-radius: 100%;
+    border: solid white 2px;
+}
