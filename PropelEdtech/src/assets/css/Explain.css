@@ -1,0 +1,112 @@
+.explain-container{
+    height: 100vh;
+    /* background-color: aqua; */
+    border: solid aqua 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.explain-video-container{
+    width: 40vw;
+    height: 90vh;
+    border: solid  red 2px;
+}
+.explain-scroll-container{
+    width: 90vw;
+    height: 90vh;
+    border: solid  red 2px;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+.explain-video-scroll-container{
+    display: flex;
+    /* overflow: scroll; */
+
+}
+
+.explain-scroll-content{
+
+}
+.explain-scroll-content-steps{
+    width: 90%;
+    height: auto;
+    border: aqua solid 2px;
+    margin: 10vh auto;
+    /* display: flex; */
+    align-items: center;
+    padding: auto;
+}
+
+.explain-fixed-process{
+    position: sticky;
+    top: 0;
+    height: 10vh;
+    margin: 2vh 5vh;
+    background-color: aqua;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+}
+
+.explain-scroll-content-steps-heading{
+    position: relative;
+    top: 0;
+}
+
+.explain-scroll-content-steps-image-details-container{
+    
+    display: flex;
+    gap: 3vw;
+    margin: 10vh 2vw;
+}
+
+.explain-scroll-content-steps-details{
+    width: 70vw;
+    height: 55vh;
+    border: aqua solid 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vh;
+
+}
+.explain-scroll-content-steps-details-part{
+    width: 90%;
+    height: 14vh;
+    border: aqua solid 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5vh;
+}
+
+.explain-scroll-content-steps-details-part1{
+    width: 90%;
+    height: 4vh;
+    border: aqua solid 2px;
+    font-size: large;
+}
+.explain-scroll-content-steps-details-part2{
+    width: 90%;
+    height: 5vh;
+    border: aqua solid 2px;
+    font-size: x-large;
+    text-transform: uppercase;
+}
+.explain-scroll-content-steps-details-part3{
+    width: 90%;
+    height: 5vh;
+    border: aqua solid 2px;
+    font-size: x-large;
+    text-transform: uppercase;
+}
+
+@media(max-width: 860px){
+    .explain-scroll-content-steps-image-details-container{
+        display: block;
+        
+    }
+    
+}

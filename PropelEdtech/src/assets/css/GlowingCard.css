@@ -1,0 +1,59 @@
+@property --gradient-angle{
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+  }
+  
+  .glowing-card{
+    height: 40vh;
+    width: 90vw;
+    background: white;
+    border-radius: 2rem;
+    position: relative;
+    margin: 10vh 0 20vh 0;
+    color: white;
+  }
+  
+  body{
+    place-content: center;
+    display: grid;
+    min-height: 100vh;
+  }
+  
+  .glowing-card::before,
+  .glowing-card::after{
+    content: "";
+    position: absolute;
+    inset: -0.25rem;
+    /* z-index: -1; */
+    /* background-color: aqua; */
+    /* background-color: linear-gradient(90deg, #0e4b50, #2d8f85, #637c54); */
+    background: linear-gradient(var(--gradient-angle),rgba(83,251,63,1) 10%, rgba(191,231,143,1) 20%, rgba(65,242,201,1) 37%, rgba(66,245,243,1) 63%, rgba(85,70,252,0.9669117647058824) 94%, rgba(67,83,247,1) 97%);
+    border-radius: inherit;
+    animation: rotation 20s linear infinite;
+  }
+  
+  .glowing-card::after{
+    /* filter: blur(3.5rem); */
+  }
+  
+  @keyframes rotation{
+    0% {--gradient-angle: 0deg;}
+    100% {--gradient-angle: 360deg;}
+  }
+
+  .glowing-content{
+    position: relative;
+    /* top: 2px;
+    right: -5px; */
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    z-index: 99;
+    border-radius: 1.98rem;
+  }
+
+  .glowing-container{
+    display: flex;
+    justify-content: center;
+  }

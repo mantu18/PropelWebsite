@@ -1,10 +1,12 @@
-import styles from './button.module.css'
+import '../assets/css/AnimateButton.css'
 export default function AnimatedButton(){
     return(
         <>
-            <div className="wrapper1">
-                <a href="#"><span>Hover Me!</span></a>
-            </div>
+        <div className="animated-button">
+      <button className="animated-btn animated-btn1">Call Us</button>
+      <button className="animated-btn animated-btn2">Claim Offer</button>
+    </div>
+            
         </>
     );
 }

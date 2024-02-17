@@ -18,8 +18,9 @@ export default function UspComponent(){
                          <img className='uspImage' src={fullstack}></img>
                         </div>
                         <div  className="usp-description">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, mollitia? Dolores nostrum quod natus odio sit sunt rerum sed eius magnam nulla animi nesciunt architecto maxime, impedit facilis veritatis excepturi.
-                        </div>
+                            <h4>100% Placement assistance</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut laboriosam asperiores qui delectus molestiae eveniet voluptas praesentium, sed officia a! Fugit consectetur distinctio provident maiores, reprehenderit maxime adipisci ratione asperiores!</p>
+                            </div>
                     </div>
                 
                     <div className="usp right">

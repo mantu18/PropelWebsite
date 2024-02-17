@@ -1,0 +1,39 @@
+.landing-card{
+    height: 300px;
+    border: 2px solid white;
+    /* From https://css.glass */
+background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.landing-card-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-image: url(https://wallpapercave.com/wp/z7SBwHM.jpg);
+}
+
+@media(max-width:768px){
+    .landing-card{
+        margin: 20px;
+    }
+}
+
+
+@media(min-width:768px){
+    .landing-card{
+        width: 25%;
+        height: 300px;
+        border: 2px solid white;
+    }
+    .landing-card-container{
+        display: flex;
+        flex-direction: row;
+        gap: 2%;
+        justify-content: center;
+        background-image: url(https://wallpapercave.com/wp/z7SBwHM.jpg);
+    }
+}

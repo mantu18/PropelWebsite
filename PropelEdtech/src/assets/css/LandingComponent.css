@@ -3,13 +3,45 @@
     flex-direction: column;
     align-items: center;
     /* opacity: 0.5; */
-    background-image: url(https://th.bing.com/th/id/OIP.LB2_m8V-IfJx3XRdwNOLwgHaGL?rs=1&pid=ImgDetMain);
+    /* background-image: url(https://assets-global.website-files.com/64817162a9f41af693e654ba/64affb961340ad16f5df1fcd_grid.svg); */
     background-size: auto;
 
 }
 
 .landing-title{
     font-size: calc(var(--lh1));
+    
+    
+}
+
+.content{
+
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    
+    background-image: linear-gradient(45deg,aqua,blue,magenta, red, orange, yellow, green, cyan,blue);
+    /* animation: animate; */
+    animation: animate 7s ease infinite;
+    background-size: 400% 400%;
+}
+
+@keyframes animate{
+    0%{
+        background-position: 0 0;
+    }
+    25%{
+        background-position: 100% 0;
+    }
+    50%{
+        background-position: 100% 100%;
+    }
+    75%{
+        background-position: 0 100%;
+    }
+    100%{
+        background-position: 0 0;
+    }
 }
 
 .landing-subtitle{
@@ -30,8 +62,12 @@
 @media (max-width:768px){
     
     .landing-title{
-        font-size: 75px;
+        font-size: 40px;
       }
+
+    .content{
+        font-size: 75px;
+    }
 
     .animated-button-container{
         margin-top: 180px;
@@ -47,7 +83,10 @@ landing-title {
 @media only screen and (min-width: 480px) {
     /* Styles for tablets and smaller screens */
     .landing-title {
-        font-size: 125px; /* Font size for tablets */
+        font-size: 50px; /* Font size for tablets */
+    }
+    .content{
+        font-size: 125px;
     }
     .landing-subtitle{
         width: 75vw;
@@ -73,3 +112,33 @@ landing-title {
 
     
 }
+
+.bg-gif{
+    position: absolute;
+    /* top: -25vh; */
+    opacity: 0.33;
+    width: 100vw;
+    height: 150vh;
+    /* border: solid aqua 2px; */
+    object-fit: cover;
+}
+
+.bg-gif img {
+ 
+    width: 100vw;
+    height: 100vh;
+    /* overflow: hidden; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @media(max-width:768px){
+    .bg-gif{
+        top:5vh; 
+    }
+
+    .interstellar{
+        margin-bottom: -20vh;
+    }
+  }

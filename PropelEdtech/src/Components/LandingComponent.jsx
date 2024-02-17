@@ -3,13 +3,19 @@ import astro2 from "../assets/images/astro2.png";
 import logo from "../assets/images/propel-logo.png";
 import AnimatedButton from "./AnimatedButton";
 import "../assets/css/LandingComponent.css";
+import nasa from "../assets/images/nasa.gif"
+import interstellar from "../assets/images/interstellar.mp4";
 
 export default function LandingComponent() {
   return (
     <>
       <div className="landing-container">
+      <div className="bg-gif">
+        {/* <img src={interstellar}></img> */}
+        <video className="interstellar" src={interstellar} autoPlay loop muted width="100%" height="auto"></video>
+        </div>
         <motion.div
-        initial={{y:-50}}
+        initial={{y:50}}
         animate={{ y: 0 }}
         transition={{duration:1}}
         className="logo-container">Propel</motion.div>
@@ -17,7 +23,7 @@ export default function LandingComponent() {
         initial={{y:100}}
         animate={{ y: 0 }}
         transition={{duration:2}}
-         className="landing-title">Mentoring Experts in AI, AR and MERN</motion.div>
+         className="landing-title">Mentoring Experts in<br></br> <span className="content">AI, AR and MERN</span></motion.div>
         <motion.div 
         initial={{y:100}}
         animate={{y:0}}
@@ -30,7 +36,6 @@ export default function LandingComponent() {
         animate={{y:0}}
         transition={{duration:2}}
          className="animated-button-container">
-            <AnimatedButton />
             <AnimatedButton />
         </motion.div>
       </div>
