@@ -313,9 +313,9 @@ body{
   border-radius: 10px;
 }
 .display-items{
-  width: 100%;
+  width: 90%;
   height: 400px;
-  margin-top: 30px;
+  margin: 10vh;
   border: 2px solid;
   border-radius: 15px;
   display: flex;
@@ -325,7 +325,7 @@ body{
 .disp-1{
   display: flex;
   margin-top: 30px;
-  margin-left: 15px;
+  /* margin-left: 15px; */
 }
 .disp-2{
   display: flex;
@@ -442,7 +442,8 @@ border: 1px solid rgba(255, 255, 255, 0.3);
 .scroll-nav-container{
   display: flex;
   margin-top: 30px;
-  
+  background: orange;
+  width: 60%;
   
 }
 .sticky{
@@ -645,4 +646,7 @@ border-right-width:5px;
   font-weight: 400;
   font-style: normal;
   box-sizing: border-box;
+}
+.CoursePage{
+  color: white;
 }

@@ -3,10 +3,14 @@ import ExplainComponent from "../Components/ExplainComponent";
 import GlowingCard from "../Components/GlowingCard";
 import LandingCards from "../Components/LandingCard";
 import LandingComponent from "../Components/LandingComponent";
+import { ScrollAnimationComponent } from "../Components/ScrollAnimationComponent";
 import TechnologyCard from "../Components/TechnologyCard";
 import Testimonial from "../Components/Testimonial";
 import UspComponent from "../Components/UspComponent";
 import nasa from "../assets/images/nasa.gif"
+import '../assets/css/Home.css';
+// import { RightScrollComponent } from "../Components/RightScrollComponent";
+// import astro from '../assets/images/astro.webmp'
 
 export default function Home(){
     return(
@@ -21,6 +25,10 @@ export default function Home(){
       <GlowingCard></GlowingCard>
       <LandingCards></LandingCards>
       <UspComponent></UspComponent>
+      
+      
+     
+      
       <Testimonial></Testimonial>
       
       </div>
