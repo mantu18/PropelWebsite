@@ -1,5 +1,5 @@
 .explain-container{
-    height: 100vh;
+    height: auto;
     /* background-color: aqua; */
     border: solid aqua 2px;
     display: flex;
@@ -15,10 +15,12 @@
 }
 .explain-scroll-container{
     width: 90vw;
-    height: 90vh;
-    border: solid  red 2px;
+    height: auto;
+    /* border: solid  red 2px; */
     overflow: scroll;
     scrollbar-width: none;
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
 }
 .explain-video-scroll-container{
     display: flex;
@@ -32,11 +34,12 @@
 .explain-scroll-content-steps{
     width: 90%;
     height: auto;
-    border: aqua solid 2px;
+    /* border: aqua solid 2px; */
     margin: 10vh auto;
     /* display: flex; */
     align-items: center;
     padding: auto;
+    scroll-snap-align: center ;
 }
 
 .explain-fixed-process{
@@ -44,7 +47,7 @@
     top: 0;
     height: 10vh;
     margin: 2vh 5vh;
-    background-color: aqua;
+    /* background-color: aqua; */
     /* display: flex; */
     align-items: center;
     justify-content: center;
@@ -64,18 +67,22 @@
 
 .explain-scroll-content-steps-details{
     width: 70vw;
-    height: 55vh;
-    border: aqua solid 2px;
+    height: 60vh;
+    /* border: aqua solid 2px; */
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 2vh;
+    overflow: scroll;
+    scrollbar-width: none;
+    scroll-snap-type: y mandatory;
 
 }
 .explain-scroll-content-steps-details-part{
     width: 90%;
-    height: 14vh;
-    border: aqua solid 2px;
+    height: auto;
+    /* border: aqua solid 2px; */
+    scroll-snap-align: center; 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -85,22 +92,23 @@
 .explain-scroll-content-steps-details-part1{
     width: 90%;
     height: 4vh;
-    border: aqua solid 2px;
+    /* border: aqua solid 2px; */
     font-size: large;
 }
 .explain-scroll-content-steps-details-part2{
     width: 90%;
     height: 5vh;
-    border: aqua solid 2px;
+    /* border: aqua solid 2px; */
     font-size: x-large;
     text-transform: uppercase;
 }
 .explain-scroll-content-steps-details-part3{
     width: 90%;
-    height: 5vh;
-    border: aqua solid 2px;
-    font-size: x-large;
-    text-transform: uppercase;
+    /* height: 7vh; */
+    height: auto;
+    /* border: aqua solid 2px; */
+    /* font-size: x-large; */
+    /* text-transform: uppercase; */
 }
 
 @media(max-width: 860px){
