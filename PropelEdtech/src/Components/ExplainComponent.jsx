@@ -26,7 +26,7 @@ export default function ExplainComponent(){
                                 <h4>Weekly schedule</h4>
                                 <div className="explain-scroll-content-steps-details-part">
                                     <div className="explain-scroll-content-steps-details-part1">Day 1-4:</div>
-                                    <div className="explain-scroll-content-steps-details-part2">MASTERY MANIFESTATION</div>
+                                    <div className="explain-scroll-content-steps-details-part2 mastery-container">MASTERY MANIFESTATION</div>
                                     <div className="explain-scroll-content-steps-details-part3">We lay the foundation for your success by providing you with an arsenal of detailed resources. From enlightening videos to insightful blogs and meticulously crafted notes, we leave no stone unturned in equipping you with the essential knowledge needed to thrive in your chosen field.</div>
                                 </div>
                                 <div className="explain-scroll-content-steps-details-part">
@@ -36,7 +36,7 @@ export default function ExplainComponent(){
                                 </div>
                                 <div className="explain-scroll-content-steps-details-part">
                                     <div className="explain-scroll-content-steps-details-part1">Day 6-7:</div>
-                                    <div className="explain-scroll-content-steps-details-part2">Expertise Expedition</div>
+                                    <div className="explain-scroll-content-steps-details-part2 expertise-container">Expertise Expedition</div>
                                     <div className="explain-scroll-content-steps-details-part3">This exhilarating phase is where theory meets practice, as you dive headfirst into live projects that mirror real-world scenarios. Guided by seasoned professionals, you'll apply your newfound knowledge and skills to solve practical challenges, gaining invaluable hands-on experience that sets you apart in the competitive market.</div>
                                 </div>
                             </div>
@@ -59,7 +59,7 @@ export default function ExplainComponent(){
                                 <h4>Weekly schedule</h4>
                                 <div className="explain-scroll-content-steps-details-part">
                                     <div className="explain-scroll-content-steps-details-part1">Day 1-4:</div>
-                                    <div className="explain-scroll-content-steps-details-part2">MASTERY MANIFESTATION</div>
+                                    <div className="explain-scroll-content-steps-details-part2 mastery-container">MASTERY MANIFESTATION</div>
                                     <div className="explain-scroll-content-steps-details-part3">We lay the foundation for your success by providing you with an arsenal of detailed resources. From enlightening videos to insightful blogs and meticulously crafted notes, we leave no stone unturned in equipping you with the essential knowledge needed to thrive in your chosen field.</div>
                                 </div>
                                 <div className="explain-scroll-content-steps-details-part">
@@ -69,7 +69,7 @@ export default function ExplainComponent(){
                                 </div>
                                 <div className="explain-scroll-content-steps-details-part">
                                     <div className="explain-scroll-content-steps-details-part1">Day 6-7:</div>
-                                    <div className="explain-scroll-content-steps-details-part2">Expertise Expedition</div>
+                                    <div className="explain-scroll-content-steps-details-part2 expertise-container">Expertise Expedition</div>
                                     <div className="explain-scroll-content-steps-details-part3">This exhilarating phase is where theory meets practice, as you dive headfirst into live projects that mirror real-world scenarios. Guided by seasoned professionals, you'll apply your newfound knowledge and skills to solve practical challenges, gaining invaluable hands-on experience that sets you apart in the competitive market.</div>
                                 </div>
                             </div>

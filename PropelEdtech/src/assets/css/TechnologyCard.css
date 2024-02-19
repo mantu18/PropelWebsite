@@ -11,7 +11,7 @@
     width: 30%;
     height:100vh;
     /* border: 3px solid red; */
-    margin: auto;
+    margin: 0 auto;
     /* border-radius: 20px; */
     
   }
@@ -32,6 +32,12 @@
         justify-content: space-between; */
         width: 90vw;
       }
+    .tech-card-title{
+      margin-top: 20vh;
+    }
+    .tech-card{
+      margin-top: -10vh;
+    }
   }
 
   @media (min-width: 768px){
@@ -47,5 +53,25 @@
   }
 
   .tech-card-title{
-    margin-top: 10vw;
+    /* margin-top: 20vh; */
+  }
+
+  .tech-card-desc-row2{
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    width: 90%;
+    border: 2px solid brown;
+  }
+
+  .tech-card-desc-row2-1{
+    height: 80%;
+    width: 20%;
+    border: aqua solid 2px;
+  }
+
+  .tech-card-desc-row2-2{
+    height: 80%;
+    width: 20%;
+    border: aqua solid 2px;
   }

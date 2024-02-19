@@ -1,7 +1,7 @@
 .explain-container{
     height: auto;
     /* background-color: aqua; */
-    border: solid aqua 2px;
+    /* border: solid aqua 2px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -11,7 +11,7 @@
 .explain-video-container{
     width: 40vw;
     height: 90vh;
-    border: solid  red 2px;
+    /* border: solid  red 2px; */
 }
 .explain-scroll-container{
     width: 90vw;
@@ -117,4 +117,13 @@
         
     }
     
+}
+
+@media(max-width: 508px){
+    .mastery-container{
+        margin-bottom: 1em;
+    }
+    .expertise-container{
+        margin-bottom: 1em;
+    }
 }

@@ -23,9 +23,9 @@ export default function Home(){
       {/* <NavbarComponent></NavbarComponent> */}
       <ExplainComponent></ExplainComponent>
       <GlowingCard></GlowingCard>
-      <LandingCards></LandingCards>
-      <UspComponent></UspComponent>
       
+      <UspComponent></UspComponent>
+      <LandingCards></LandingCards>
       
      
       
