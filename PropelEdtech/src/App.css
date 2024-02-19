@@ -93,6 +93,7 @@ body{
 }
 .cards-container{
   display: flex;
+  width: 100vw;
 }
 .info-card{
   width: 60%;
@@ -333,10 +334,12 @@ body{
 }
 .cert-1{
   display: flex;
+  justify-content: center;
   margin-top: 80px;
 }
 .cert-2{
   display: flex;
+  justify-content: center;
   margin-left: 0;
   margin-top: 25px;
 }
@@ -451,20 +454,12 @@ border: 1px solid rgba(255, 255, 255, 0.3);
   top: 0;
   
 }
-.page-1{
-  display: flex;
-  margin-top: 60px;
-}
-.page-2{
-  display: flex;
-}
-.page-3{
-  width: 350px;
-  height: 350px;
-  margin-left: 40%;
-  border: solid 5px pink;
-  border-radius: 20px;
-}
+
+/* @media(maxwidth:468px){
+  .cert-info{
+    display: block;
+  }
+} */;.
 
 .comparision-icon{
   width: 25px;
@@ -647,6 +642,52 @@ border-right-width:5px;
   font-style: normal;
   box-sizing: border-box;
 }
+.nav-logo{
+  font-family: "Lobster", sans-serif;
+}
 .CoursePage{
   color: white;
+  width: 100vw;
 }
+/* .page-cert{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.navbar{
+  font-size: 1.5rem;
+}
+
+.navbar a{
+  font-size: 1.5rem;
+}
+.nav-container1{
+  display: flex;
+  justify-content: space-between;
+  width: 85vw;
+  margin: 0 auto
+}
+
+@media(max-width:768px){
+  .mobile-view-nav-collapse{
+    background-color: #211f1f;
+  }
+  .mobile-view-nav-button{
+    
+  }
+  .nav-container1{
+    display: block;
+    justify-content: end;
+  }
+  .mobile-view-fix-left{
+    position: fixed;
+    left: 10vw;
+  }
+  .mobile-view-fix-right{
+    position: fixed;
+    right: 5vw;
+  }
+}
+
+

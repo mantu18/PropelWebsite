@@ -3,7 +3,7 @@ import teacher from '../assets/images/teacher.png';
 export default function ExplainComponent(){
     return(
         <>
-        <div className="explain-container">
+        <div className="explain-container bg-child">
             <h1>How we make you market ready</h1>
             <div className="explain-video-scroll-container">
                 <div className="explain-scroll-container">

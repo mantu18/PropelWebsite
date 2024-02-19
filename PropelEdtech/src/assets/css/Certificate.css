@@ -1,0 +1,49 @@
+.cert-image-1{
+    /* display: flex; */
+    width: 80vw;
+    height: 70vh;
+    margin: 30px;
+    /* flex-direction: column; */
+    border: 3px solid white;
+  }
+  .cert-info{
+    display: flex;
+    margin: auto;
+    width:60vw;
+    height: 60vh;
+  }
+  .page-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+  }
+  .page-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 20px;
+  }
+  .page-3{
+    width: 80vw;
+    height: 80vh;
+    /* margin-left: 30px; */
+    margin: auto;
+    border: solid 5px pink;
+    border-radius: 20px;
+    display: flex;
+    /* flex-direction: column; */
+  }
+
+  @media screen and (max-width: 480px) {
+    .page-3{
+        flex-direction: column;
+    }
+    .cert-info{
+        width: 100vw;
+    }
+    #certificate-img{
+        width: 80vw;
+    }
+  }

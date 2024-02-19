@@ -17,6 +17,7 @@
     overflow: hidden;
     width: 100vw;
     /* border: 2px solid white; */
+    color: white;
   }
   
   .img-container {
@@ -70,3 +71,14 @@
     z-index: 2;
   }
   
+  .bg{
+    scroll-snap-type: y mandatory;
+    overflow: scroll;
+    scrollbar-width: none;
+    height: 100vh;
+  }
+
+  .bg-child{
+    scroll-snap-align:  start;
+    padding-top: 30px;
+  }

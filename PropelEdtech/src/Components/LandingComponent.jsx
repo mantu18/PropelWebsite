@@ -9,11 +9,11 @@ import interstellar from "../assets/images/interstellar.mp4";
 export default function LandingComponent() {
   return (
     <>
-      <div className="landing-container">
-      <div className="bg-gif">
-        {/* <img src={interstellar}></img> */}
+      <div className="landing-container bg-child">
+      {/* <div className="bg-gif">
+        
         <video className="interstellar" src={interstellar} autoPlay loop muted width="100%" height="auto"></video>
-        </div>
+        </div> */}
         <motion.div
         initial={{y:50}}
         animate={{ y: 0 }}

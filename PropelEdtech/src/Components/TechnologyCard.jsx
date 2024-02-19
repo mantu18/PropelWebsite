@@ -27,7 +27,7 @@ export default function TechnologyCard(){
         }}
          
         
-         className="tech-card" >
+         className="tech-card bg-child" >
             
             <div className="tech-1"><img src={rea}alt="" className='tech-img'/><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore quisquam expedita est recusandae laborum atque cumque possimus ab accusantium, voluptatem, pariatur alias voluptatum necessitatibus cum distinctio? Atque cum placeat possimus?</p></div>
             <div className="tech-1"><img src={ml} alt="" className='tech-img'/>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint voluptas asperiores a at, ut dolorem, nesciunt reiciendis maiores ea voluptatum error earum commodi odit cum saepe sit eaque exercitationem omnis!</div>

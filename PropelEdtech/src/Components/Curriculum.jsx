@@ -1,5 +1,6 @@
 import {useState } from "react";
 import CurriculumNav from "./CurriculumNav";
+import '../assets/css/Cirriculum.css';
 
 export default function Curriculum(){
     const [module, setModule] = useState(1);

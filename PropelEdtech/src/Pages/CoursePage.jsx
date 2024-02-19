@@ -1,5 +1,5 @@
 import CourseCards from "../Components/CourseCards";
-import Curriculum from "../Components/Curriculum"
+import Curriculum from "../Components/Curriculum";
 import Display from "../Components/Display"
 import ComparisionComponent from "../Components/ComparisionComponent"
 import FeeComponent from "../Components/FeeComponent"
@@ -12,7 +12,6 @@ export default function Coursepage(){
         <div className="CoursePage">
         <CourseCards></CourseCards>
         <Curriculum></Curriculum>
-        <Display></Display>
         <Certification></Certification>
         <Certified></Certified>
         <FeeComponent></FeeComponent>

@@ -25,7 +25,7 @@ export const ScrollAnimationComponent = ({name,direction2}) => {
     ["-100%", "0%"]
   );
   const imageValue = useTransform(scrollYProgress, [0, 1], [direction2, "0%"]);
-//   const imageValue2 = useTransform(scrollYProgress, [0, 1], ["100%", "0%"]);
+  const imageValue2 = useTransform(scrollYProgress, [0, 1], ["100%", "0%"]);
   const topShadowValue = useTransform(
     scrollYProgress,
     [0, 1],
@@ -35,7 +35,7 @@ export const ScrollAnimationComponent = ({name,direction2}) => {
   return (
     <>
     <section className="scroll-container"  ref={containerRef}>
-      <motion.div className="copy" style={{ translateX: imageValue }}>
+      <motion.div className="copy" style={{ translateY: imageValue2 }}>
         <h2>{name}</h2>
         <p>sadg setryd etrys r tyu</p>
       </motion.div>
