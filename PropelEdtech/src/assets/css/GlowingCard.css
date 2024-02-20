@@ -106,3 +106,18 @@
     align-items: center;
     font-size: 30px;
   }
+
+  @media(max-width:768px){
+    .glowing-card{
+      height: 100vh;
+      flex-direction: column;
+    }
+    .glowing-content{
+      flex-direction: column;
+      gap: 5vh;
+    }
+    .glowing-point{
+      width: 90%;
+      border-right: none;
+    }
+  }

@@ -1,7 +1,7 @@
 .explain-container{
     height: auto;
     /* background-color: aqua; */
-    border: solid aqua 2px;
+    /* border: solid aqua 2px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -11,7 +11,7 @@
 .explain-video-container{
     width: 40vw;
     height: 90vh;
-    border: solid  red 2px;
+    /* border: solid  red 2px; */
 }
 .explain-scroll-container{
     width: 90vw;
@@ -117,4 +117,101 @@
         
     }
     
+}
+
+@media(max-width: 508px){
+    .mastery-container{
+        margin-bottom: 1em;
+    }
+    .expertise-container{
+        margin-bottom: 1em;
+    }
+}
+
+.journey-card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+}
+.journey-card{
+    height: 80vh;
+    width: 25vw;
+    /* background-color: rgb(136, 124, 148); */
+    background: rgb(4,120,177);
+    background: linear-gradient(90deg, #b527cf 0%, #3546f0 100%);
+    border-radius: 25px 25px 0 0;
+    color: white;
+}
+.journey-card-1{
+    background: linear-gradient(90deg, #b527cf 0%, #3546f0 100%);
+}
+.journey-card-2{
+    background: linear-gradient(90deg, #3bd9d9 0%, #8035f0 100%);
+}
+.journey-card-3{
+    background: linear-gradient(90deg, #ff9500 0%, #d5cb0f 100%);
+}
+@media(max-width:768px){
+    .journey-card-container{
+        flex-direction: column;
+        /* gap:  5vh; */
+        scroll-snap-type:y mandatory;
+        
+        overflow: scroll;
+        
+    }
+    .journey-card{
+        height: auto;
+        width: 80vw; 
+        margin-top: 5vh;
+        scroll-snap-align: start;
+    }
+    
+}
+.accordion-item, .accordion-button{
+    color: white;
+    /* background-color: blueviolet; */
+    background: rgb(167,4,177);
+background: linear-gradient(135deg, rgba(167,4,177,1) 0%, rgba(10,10,113,1) 57%, rgba(0,150,255,1) 100%);
+    border: none;
+    text-align: center;
+}
+
+.accordion-item-1, .accordion-button-1{
+    background: linear-gradient(90deg, #b527cf 0%, #3546f0 100%);
+}
+
+.accordion-item-2, .accordion-button-2{
+    background: linear-gradient(90deg, #3bd9d9 0%, #8035f0 100%);
+}
+
+.accordion-item-3, .accordion-button-3{
+    background: linear-gradient(90deg, #ff9500 0%, #d5cb0f 100%);
+}
+
+.accordion-button-text{
+    margin: 0 auto;
+    font-size: 1.25em;
+}
+.journey-card-img{
+    width: 25vw;
+    height: 35vh;
+    border-radius: 5px 25px 5px 0px;
+}
+
+.journey-card-heading{
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+@media(max-width:768px){
+    /* .journey-card-img{
+        display: none;
+    }  */
+    .journey-card-img{
+        width: 80vw;
+        height: 35vh;
+        border-radius: 5px 25px 5px 0px;
+    }
 }

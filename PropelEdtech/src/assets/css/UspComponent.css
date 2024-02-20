@@ -98,3 +98,8 @@ section{
     border-radius: 100%;
     border: solid white 2px;
 }
+@media (max-width:768px) {
+  .usp-container{
+    display: none;
+  }
+}

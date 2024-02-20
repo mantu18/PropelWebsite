@@ -82,3 +82,9 @@
     scroll-snap-align:  start;
     padding-top: 30px;
   }
+
+  .parent-of-all{
+    height: 100vh;
+    overflow: scroll;
+    /* scrollbar-width: none; */
+  }

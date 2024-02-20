@@ -14,6 +14,7 @@ border: 1px solid rgba(255, 255, 255, 0.3);
     flex-direction: column;
     gap: 20px;
     background-image: url(https://wallpapercave.com/wp/z7SBwHM.jpg);
+    margin-top: 60vh;
 }
 
 @media(max-width:768px){

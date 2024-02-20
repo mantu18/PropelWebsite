@@ -11,8 +11,8 @@ export default function UspComponent(){
     console.log('uspVisible', uspVisible);
     return(
         <>
-        <div ref={myRef} className="usp-container">
-            <h2>Why Choose Us?</h2>
+        <div ref={myRef} className="usp-container ">
+            {/* <h2>Why Choose Us?</h2> */}
             
             <ScrollAnimationComponent name={"Feature1"} direction2={"-100%"} ></ScrollAnimationComponent>
       <ScrollAnimationComponent name={"Feature2"} direction2={"100%"} ></ScrollAnimationComponent>

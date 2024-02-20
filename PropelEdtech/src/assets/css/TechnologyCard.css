@@ -1,17 +1,20 @@
 .tech-card{
     width:100%;
-    /* height: 1000px; */
+    height: 100vh;
     background-color:black;
     /* border: 2px solid rgb(207, 204, 204); */
     /* display: flex; */
     margin-top: 20px;
+    padding-top: 20vh;
+    display: flex;
+    justify-content: center;
     
   }
   .tech-1{
     width: 30%;
     height:100vh;
     /* border: 3px solid red; */
-    margin: auto;
+    margin: 0 auto;
     /* border-radius: 20px; */
     
   }
@@ -32,6 +35,12 @@
         justify-content: space-between; */
         width: 90vw;
       }
+    .tech-card-title{
+      margin-top: 20vh;
+    }
+    .tech-card{
+      margin-top: -10vh;
+    }
   }
 
   @media (min-width: 768px){
@@ -47,5 +56,133 @@
   }
 
   .tech-card-title{
-    margin-top: 10vw;
+    /* margin-top: 20vh; */
+  }
+
+  .tech-card-desc-row2{
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    width: 90%;
+    border: 2px solid brown;
+  }
+
+  .tech-card-desc-row2-1{
+    height: 80%;
+    width: 20%;
+    border: aqua solid 2px;
+  }
+
+  .tech-card-desc-row2-2{
+    height: 80%;
+    width: 20%;
+    border: aqua solid 2px;
+  }
+
+  .colourful-container {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    perspective: 90rem;
+    perspective-origin: 30% 60%;
+    padding-top: 10vh;
+  }
+  
+  .div-transform {
+    display: flex;
+  /*   transform: rotateX(10deg) rotateY(15deg) rotateZ(-9deg) scale3d(1, 1, -0.9)
+      scale(1.1) translateX(50px); */
+  }
+  
+  .card-color {
+    background: url() center;
+    color: #fff;
+    border-radius: 8px;
+    padding: 0px 18px;
+    width: 30vw;
+    transition: 0.5s ease;
+    overflow: hidden;
+    transform: translate(0);
+    height: 80vh;
+  }
+  
+  .card-color::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    opacity: 0.85;
+  }
+  
+  .card-color h2 {
+    text-transform: capitalize;
+  }
+  
+  .card-color h4 {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-top: 48px;
+  }
+  
+  .card-1-color {
+    background-size: cover;
+    transform: scale(1.02);
+    margin-right: 40px;
+  }
+  
+  .card-1-color:hover {
+    transform: scale(1.11);
+    box-shadow: -7px 4px 28px -3px #b527cf;
+  }
+  
+  .card-1-color::before {
+    background: linear-gradient(90deg, #b527cf 0%, #3546f0 100%);
+  }
+  .card-2-color {
+    background-size: cover;
+    transform: scale(1.01);
+    margin-right: 31px;
+  }
+  
+  .card-2-color:hover {
+    transform: scale(1.1);
+    box-shadow: -7px 4px 28px -3px #3bd9d9;
+  }
+  
+  .card-2-color::before {
+    background: linear-gradient(90deg, #3bd9d9 0%, #8035f0 100%);
+  }
+  .card-3-color {
+    background-size: cover;
+  }
+  
+  .card-3-color:hover {
+    transform: scale(1.08);
+    box-shadow: -7px 4px 28px -3px #ff9500;
+  }
+  
+  .card-3-color::before {
+    background: linear-gradient(90deg, #ff9500 0%, #d5cb0f 100%);
+  }
+
+  @media(max-width:768px){
+    .colourful-container{
+      
+    }
+    .card-color{
+      width: 80vw;
+      height: 25vh;
+      margin: 0 auto;
+    }
+  .div-transform{
+    flex-direction: column;
+    gap: 3vh;
+    align-items: center;
+    justify-content: center;
+  }
+  
   }

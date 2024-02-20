@@ -16,24 +16,24 @@ import NavbarComponent from '../Components/NavbarComponent';
 export default function Home(){
     return(
         <>
+        
         <div className="bg">
         <NavbarComponent></NavbarComponent>
         <LandingComponent></LandingComponent>
         
       <TechnologyCard></TechnologyCard>
       {/* <NavbarComponent></NavbarComponent> */}
-      <ExplainComponent></ExplainComponent>
       <GlowingCard></GlowingCard>
+      <ExplainComponent></ExplainComponent>
+      
       <LandingCards></LandingCards>
-      
-      
+      <Testimonial></Testimonial>
       </div>
       <UspComponent></UspComponent>
+       
       
       
-     
       
-      <Testimonial></Testimonial>
         </>
     );
 
