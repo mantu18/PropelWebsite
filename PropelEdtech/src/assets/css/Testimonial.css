@@ -1,125 +1,83 @@
-/* .testimonial-grid{
-    display: grid;
-    gap:20px;
-    margin: 3vw 3vw;
-
-}
-.testimonial{
-    border: 3px solid white;
-    border-radius: 15px;
-}
-
-@media (min-width:480px){
-    .grid-col-span-2{
-    grid-column: span 2;
-}
-.testimonial:last-child{
-    grid-column-start: 4;
-    grid-row-start: 1;
-    grid-row-end: 3;
-}
-.testimonial-grid{
-    grid-template-columns: repeat(4,1fr);
-
-}
-}
-
-@media (max-width:480px){
-    .testimonial-title{
-        margin: 10vh 0 5vh 0;
-    }
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap");
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 } */
-body {
-    margin: 0;
-    background: #160c36;
-    text-align: center;
-    font-family: sans-serif;
-    color: #fefefe;
-  }
-  
-  .tesimonial-container {
+
+
+
+.testimonial-container {
+    margin-top: 20vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 500px;
+  gap: 10px;
+
+  > div {
+    flex: 0 0 300px;
+    border-radius: 0.5rem;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+    box-shadow: 1px 5px 15px #1e0e3e;
     position: relative;
-    width: 320px;
-    margin: 100px auto 0 auto;
-    perspective: 1000px;
-  }
-  
-  .tesimonial-carousel {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    transform-style: preserve-3d;
-    animation: rotate360 60s infinite forwards linear;
-  }
-  
-  .tesimonial-image {
-    position: absolute;
-    height: 200px;
-    top: 20px;
-    left: 10px;
-    right: 10px;
-    background-size: cover;
-    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
-    display: flex;
-  }
-  
-  tesimonial-span {
-    margin: auto;
-    font-size: 2rem;
-  }
-  
-  @keyframes rotate360 {
-    from {
-      transform: rotateY(360deg);
+    overflow: hidden;
+
+    &:nth-of-type(1) {
+      background: url("https://images.pexels.com/photos/1845208/pexels-photo-1845208.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260")
+        no-repeat 50% / cover;
     }
-    to {
-      transform: rotateY(-360deg);
+    &:nth-of-type(2) {
+      background: url("https://images.pexels.com/photos/36469/woman-person-flowers-wreaths.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260")
+        no-repeat 50% / cover;
+    }
+    &:nth-of-type(3) {
+      background: url("https://images.pexels.com/photos/1468379/pexels-photo-1468379.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260")
+        no-repeat 50% / cover;
+    }
+    &:nth-of-type(4) {
+      background: url("https://images.pexels.com/photos/247322/pexels-photo-247322.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260")
+        no-repeat 50% / cover;
+    }
+
+    .testimonial-content {
+      font-size: 1.5rem;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      padding: 15px;
+      opacity: 0;
+      flex-direction: column;
+      height: 100%;
+      justify-content: flex-end;
+      background: rgb(2, 2, 46);
+      background: linear-gradient(
+        0deg,
+        rgba(2, 2, 46, 0.6755077030812324) 0%,
+        rgba(255, 255, 255, 0) 100%
+      );
+      transform: translatey(100%);
+      transition: opacity 0.5s ease-in-out, transform 0.5s 0.2s;
+      visibility: hidden;
+
+      span {
+        display: block;
+        margin-top: 5px;
+        font-size: 1.2rem;
+      }
+    }
+
+    &:hover {
+      flex: 0 0 550px;
+      box-shadow: 1px 3px 15px #7645d8;
+      transform: translatey(-30px);
+    }
+
+    &:hover .testimonial-content {
+      opacity: 1;
+      transform: translatey(0%);
+      visibility: visible;
     }
   }
-  
-  .tesimonial-image:nth-child(1) {
-    background-image: url(https://i.pinimg.com/originals/5e/4c/65/5e4c655b9353e0be289273b3e7c4b227.jpg);
-    transform: rotateY(0deg) translateZ(450px);
-  }
-  .tesimonial-image:nth-child(2) {
-    background-image: url(https://i.pinimg.com/originals/5e/4c/65/5e4c655b9353e0be289273b3e7c4b227.jpg);
-    transform: rotateY(40deg) translateZ(450px);
-  }
-  .tesimonial-image:nth-child(3) {
-    background-image: url(https://i.pinimg.com/originals/5e/4c/65/5e4c655b9353e0be289273b3e7c4b227.jpg);
-    transform: rotateY(80deg) translateZ(450px);
-  }
-  .tesimonial-image:nth-child(4) {
-    background-image: url(https://i.pinimg.com/originals/5e/4c/65/5e4c655b9353e0be289273b3e7c4b227.jpg);
-    transform: rotateY(120deg) translateZ(450px);
-  }
-  .tesimonial-image:nth-child(5) {
-    background-image: url(https://i.pinimg.com/originals/5e/4c/65/5e4c655b9353e0be289273b3e7c4b227.jpg);
-    transform: rotateY(160deg) translateZ(450px);
-  }
-  .tesimonial-image:nth-child(6) {
-    background-image: url(https://i.pinimg.com/originals/5e/4c/65/5e4c655b9353e0be289273b3e7c4b227.jpg);
-    transform: rotateY(200deg) translateZ(450px);
-  }
-  .tesimonial-image:nth-child(7) {
-    background-image: url(https://i.pinimg.com/originals/5e/4c/65/5e4c655b9353e0be289273b3e7c4b227.jpg);
-    transform: rotateY(240deg) translateZ(450px);
-  }
-  .tesimonial-image:nth-child(8) {
-    background-image: url(https://i.pinimg.com/originals/5e/4c/65/5e4c655b9353e0be289273b3e7c4b227.jpg);
-    transform: rotateY(280deg) translateZ(450px);
-  }
-  .tesimonial-image:nth-child(9) {
-    background-image: url(https://i.pinimg.com/originals/5e/4c/65/5e4c655b9353e0be289273b3e7c4b227.jpg);
-    transform: rotateY(320deg) translateZ(450px);
-  }
-  
-  @media (max-width:768px) {
-    .tesimonial-container{
-        width:55vw;
-    }
-    .tesimonial-image{
-        height: 40vh;
-    }
-    
-  }
+}

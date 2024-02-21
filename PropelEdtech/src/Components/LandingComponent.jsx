@@ -31,8 +31,13 @@ export default function LandingComponent() {
         className="landing-subtitle">
             At Propel, renowned for excellence, we've transformed countless careers. With expertise in AI, AR, VR, and MERN stack, our courses, crafted by industry leaders, offer hands-on experience. Empowering learners with personalized mentorship, we don't just teach – we shape futures. 
         </motion.div>
+        <motion.div
+        initial={{y:100}}
+        animate={{y:0}}
+        transition={{duration:2}} className="scholarship-deadline">
         <h4>Get scholarships worth upto 25,000.</h4>
         <h6>*ends on March 15</h6>
+        </motion.div>
         <motion.div
         initial={{y:100}}
         animate={{y:0}}

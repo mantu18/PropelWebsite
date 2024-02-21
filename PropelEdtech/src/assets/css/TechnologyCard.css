@@ -186,3 +186,58 @@
   }
   
   }
+
+  .tech-card-image{
+    width: 70%;
+  }
+
+  .tech-capsule{
+    width: auto;
+    padding:0 0.5em;
+    height: 2em;
+    border-radius: 2em;
+    border: solid 2px white;
+  }
+
+  .teach-capsule-container{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: gray 1px solid;
+    border-top: rgb(39, 36, 36) 2px solid;
+    padding: 0.5em 0;
+  }
+
+  .tech-scholarship-container{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    line-height: 1.5em;
+  }
+
+  .tech-scholarship-title{
+    font-size: 1.5em;
+  }
+
+  .tech-scholarship-seats{
+    color: rgb(234, 35, 0);
+  }
+
+  .tech-scolarship-button{
+    margin: 1em auto;
+    width: 90%;
+    height: 2em;
+    border: 2px white solid;
+    border-radius: 1em;
+  }
+
+  .tech-rating{
+    width: auto;
+    height: 2em;
+    /* border: solid 2px red; */
+  }
+
+  .rating-image{
+    width: 8em;
+    height: 2em;
+  }

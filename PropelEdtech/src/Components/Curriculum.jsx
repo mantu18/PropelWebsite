@@ -76,7 +76,8 @@ export default function Curriculum(){
              </div>
                  
         </div> */}
-        <CurriculumNav></CurriculumNav>
+        {/* <CurriculumNav></CurriculumNav> */}
+        
         <div className="display-items" id="module1">
             <div className="disp-1">
              <h5>{arr[module].title}</h5>

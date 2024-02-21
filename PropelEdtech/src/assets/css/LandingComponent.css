@@ -143,4 +143,20 @@ landing-title {
     .interstellar{
         margin-bottom: -20vh;
     }
+
+    .scholarship-deadline{
+        margin-top: 12vh;
+    }
+
+    .animated-button-container{
+        margin-top: 2vh;
+    }
+
+    .landing-subtitle{
+        width: 80vw;
+    }
   }
+
+  .scholarship-deadline{
+    margin-top: -30vh;
+}

@@ -26,7 +26,7 @@ export default function Home(){
       <GlowingCard></GlowingCard>
       <ExplainComponent></ExplainComponent>
       
-      <LandingCards></LandingCards>
+      {/* <LandingCards></LandingCards> */}
       <Testimonial></Testimonial>
       </div>
       <UspComponent></UspComponent>
