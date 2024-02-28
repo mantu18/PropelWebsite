@@ -7,20 +7,20 @@ export default function GlowingCard(){
             <div className="glowing-content">
                 <div className="glowing-point">
                     <div className="glowing-point-box">
-                        <div className='glowing-point-box-number'>100+</div>
-                        <div className='glowing-point-box-description'>Students Placed</div>
+                        <div className='glowing-point-box-number'>9.7 out of 10</div>
+                        <div className='glowing-point-box-description'>Average satisfaction rating of prev batches</div>
                     </div>
                 </div>
                 <div className="glowing-point">
                 <div className="glowing-point-box">
-                        <div className='glowing-point-box-number'>100+</div>
-                        <div className='glowing-point-box-description'>Students Placed</div>
+                        <div className='glowing-point-box-number'>88%+</div>
+                        <div className='glowing-point-box-description'>Placement ratio</div>
                     </div>
                 </div>
                 <div className="glowing-point">
                 <div className="glowing-point-box">
-                        <div className='glowing-point-box-number'>100+</div>
-                        <div className='glowing-point-box-description'>Students Placed</div>
+                        <div className='glowing-point-box-number'>USD 120000</div>
+                        <div className='glowing-point-box-description'>Highest Package</div>
                     </div>
                 </div>
             </div>

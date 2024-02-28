@@ -4,7 +4,7 @@
     background-color:black;
     /* border: 2px solid rgb(207, 204, 204); */
     /* display: flex; */
-    margin-top: 20px;
+    /* margin-top: 55vh; */
     padding-top: 20vh;
     display: flex;
     justify-content: center;
@@ -39,7 +39,7 @@
       margin-top: 20vh;
     }
     .tech-card{
-      margin-top: -10vh;
+      margin-top: 40vh;
     }
   }
 
@@ -50,7 +50,7 @@
         background-color:black;
         /* border: 2px solid rgb(207, 204, 204); */
         display: flex;
-        margin-top: 80px;
+        margin-top: 30vh;
       }
       
   }
@@ -81,7 +81,7 @@
 
   .colourful-container {
     display: flex;
-    height: 100vh;
+    height: 50vh;
     align-items: center;
     justify-content: center;
     perspective: 90rem;
@@ -188,7 +188,7 @@
   }
 
   .tech-card-image{
-    width: 70%;
+    width: 95%;
   }
 
   .tech-capsule{
@@ -200,10 +200,9 @@
   }
 
   .teach-capsule-container{
+    margin-top: 5vh;
     display: flex;
     justify-content: space-between;
-    border-bottom: gray 1px solid;
-    border-top: rgb(39, 36, 36) 2px solid;
     padding: 0.5em 0;
   }
 
@@ -220,7 +219,7 @@
   }
 
   .tech-scholarship-seats{
-    color: rgb(234, 35, 0);
+    
   }
 
   .tech-scolarship-button{
@@ -229,6 +228,7 @@
     height: 2em;
     border: 2px white solid;
     border-radius: 1em;
+    font-size: x-large;
   }
 
   .tech-rating{

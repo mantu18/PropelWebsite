@@ -13,7 +13,7 @@ export default function ExplainComponent() {
           <div className="journey-card journey-card-1">
             <img src={teacher} className="journey-card-img"></img>
             <h4 className="journey-card-heading">
-              The Perfect Harmony of Live Interaction and Recorded Wisdom
+              Foundation
             </h4>
 
             
@@ -21,36 +21,36 @@ export default function ExplainComponent() {
   <div class="accordion-item accordion-item-1">
     <h2 class="accordion-header" id="headingOne1">
       <button class="accordion-button accordion-button-1" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne1" aria-expanded="true" aria-controls="collapseOne1">
-        Accordion Item #1
+        Live Project Implementation
       </button>
     </h2>
     <div id="collapseOne1" class="accordion-collapse collapse show" aria-labelledby="headingOne1" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-        <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        <strong>At Propel we foucus on project based learning.</strong>Our Industry expert mentors will help you create amazing projects through live classes and instantly resolve your queries.
       </div>
     </div>
   </div>
   <div class="accordion-item accordion-item-1">
     <h2 class="accordion-header" id="headingTwo2">
       <button class="accordion-button accordion-button-1 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo2" aria-expanded="false" aria-controls="collapseTwo2">
-        Accordion Item #2
+        Interactive classes & doubt clearning
       </button>
     </h2>
     <div id="collapseTwo2" class="accordion-collapse collapse" aria-labelledby="headingTwo2" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        <strong>A special focus on interactive learning, revision, doubt clearing and exclusive interaction with pioneers of industry so you get the latest updates</strong> 
       </div>
     </div>
   </div>
   <div class="accordion-item accordion-item-1">
     <h2 class="accordion-header" id="headingThree3">
       <button class="accordion-button accordion-button-1 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree3" aria-expanded="false" aria-controls="collapseThree3">
-        Accordion Item #3
+        Study materials
       </button>
     </h2>
     <div id="collapseThree3" class="accordion-collapse collapse" aria-labelledby="headingThree3" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        <strong>We leave no stone unturned when it comes to preparing you for your career. we provide Detailed informative videos, blogs, notes so that you can learn the details at your own pace</strong>
       </div>
     </div>
   </div>
@@ -60,7 +60,7 @@ export default function ExplainComponent() {
           <div className="journey-card journey-card-2">
             <img src={teacher} className="journey-card-img"></img>
             <h4 className="journey-card-heading">
-              The Perfect Harmony of Live Interaction and Recorded Wisdom
+             Skill Sculpting
             </h4>
             <div class="accordion" id="accordionExample">
               <div class="accordion-item accordion-item-2">
@@ -75,7 +75,7 @@ export default function ExplainComponent() {
                   >
                     <span className="accordion-button-text">
                       {" "}
-                      Mastery Manifestation
+                      Progressive Assignments
                     </span>
                   </button>
                 </h2>
@@ -86,15 +86,8 @@ export default function ExplainComponent() {
                   data-bs-parent="#accordionExample"
                 >
                   <div class="accordion-body">
-                    <strong>This is the first item's accordion body.</strong> It
-                    is shown by default, until the collapse plugin adds the
-                    appropriate classes that we use to style each element. These
-                    classes control the overall appearance, as well as the
-                    showing and hiding via CSS transitions. You can modify any
-                    of this with custom CSS or overriding our default variables.
-                    It's also worth noting that just about any HTML can go
-                    within the <code>.accordion-body</code>, though the
-                    transition does limit overflow.
+                    <strong>Progressive assignments help you strengthen core concepts and progressively improve your knowledge</strong>Solutions are provided to guide you improve learning pace
+                    
                   </div>
                 </div>
               </div>
@@ -110,7 +103,7 @@ export default function ExplainComponent() {
                   >
                     <span className="accordion-button-text">
                       {" "}
-                      Skill Sculpting
+                      Hands-on Assignments
                     </span>
                   </button>
                 </h2>
@@ -121,15 +114,8 @@ export default function ExplainComponent() {
                   data-bs-parent="#accordionExample"
                 >
                   <div class="accordion-body">
-                    <strong>This is the second item's accordion body.</strong>{" "}
-                    It is hidden by default, until the collapse plugin adds the
-                    appropriate classes that we use to style each element. These
-                    classes control the overall appearance, as well as the
-                    showing and hiding via CSS transitions. You can modify any
-                    of this with custom CSS or overriding our default variables.
-                    It's also worth noting that just about any HTML can go
-                    within the <code>.accordion-body</code>, though the
-                    transition does limit overflow.
+                    <strong>Hands-on assignments improves your applied knowledge and imporove your problem solving skills.</strong>{" "}
+                    
                   </div>
                 </div>
               </div>
@@ -144,7 +130,7 @@ export default function ExplainComponent() {
                     aria-controls="collapseThree6"
                   >
                     <span className="accordion-button-text">
-                      Expertise Expedition
+                      Mini Projects
                     </span>
                   </button>
                 </h2>
@@ -155,15 +141,8 @@ export default function ExplainComponent() {
                   data-bs-parent="#accordionExample"
                 >
                   <div class="accordion-body">
-                    <strong>This is the third item's accordion body.</strong> It
-                    is hidden by default, until the collapse plugin adds the
-                    appropriate classes that we use to style each element. These
-                    classes control the overall appearance, as well as the
-                    showing and hiding via CSS transitions. You can modify any
-                    of this with custom CSS or overriding our default variables.
-                    It's also worth noting that just about any HTML can go
-                    within the <code>.accordion-body</code>, though the
-                    transition does limit overflow.
+                    <strong>Mini projects will help you apply all the things you learnt and boost your resume.</strong> It
+                    
                   </div>
                 </div>
               </div>
@@ -172,7 +151,7 @@ export default function ExplainComponent() {
           <div className="journey-card journey-card-3">
             <img src={teacher} className="journey-card-img"></img>
             <h4 className="journey-card-heading">
-              The Perfect Harmony of Live Interaction and Recorded Wisdom
+            Expertise Expedition
             </h4>
             <div class="accordion" id="accordionExample">
               <div class="accordion-item accordion-item-3">
@@ -187,7 +166,7 @@ export default function ExplainComponent() {
                   >
                     <span className="accordion-button-text">
                       {" "}
-                      Mastery Manifestation
+                      Knowledge Transfer
                     </span>
                   </button>
                 </h2>
@@ -198,15 +177,8 @@ export default function ExplainComponent() {
                   data-bs-parent="#accordionExample"
                 >
                   <div class="accordion-body">
-                    <strong>This is the first item's accordion body.</strong> It
-                    is shown by default, until the collapse plugin adds the
-                    appropriate classes that we use to style each element. These
-                    classes control the overall appearance, as well as the
-                    showing and hiding via CSS transitions. You can modify any
-                    of this with custom CSS or overriding our default variables.
-                    It's also worth noting that just about any HTML can go
-                    within the <code>.accordion-body</code>, though the
-                    transition does limit overflow.
+                    <strong>Senior developers will guide you to be prepared to contribute for live projects</strong>
+                   
                   </div>
                 </div>
               </div>
@@ -222,7 +194,7 @@ export default function ExplainComponent() {
                   >
                     <span className="accordion-button-text">
                       {" "}
-                      Skill Sculpting
+                      Code Contribution
                     </span>
                   </button>
                 </h2>
@@ -233,15 +205,8 @@ export default function ExplainComponent() {
                   data-bs-parent="#accordionExample"
                 >
                   <div class="accordion-body">
-                    <strong>This is the second item's accordion body.</strong>{" "}
-                    It is hidden by default, until the collapse plugin adds the
-                    appropriate classes that we use to style each element. These
-                    classes control the overall appearance, as well as the
-                    showing and hiding via CSS transitions. You can modify any
-                    of this with custom CSS or overriding our default variables.
-                    It's also worth noting that just about any HTML can go
-                    within the <code>.accordion-body</code>, though the
-                    transition does limit overflow.
+                    <strong>Code contribution to live projects under the guidance of seniors</strong>{" "}
+                    
                   </div>
                 </div>
               </div>
@@ -256,7 +221,7 @@ export default function ExplainComponent() {
                     aria-controls="collapseThree9"
                   >
                     <span className="accordion-button-text">
-                      Expertise Expedition
+                      Code Review
                     </span>
                   </button>
                 </h2>
@@ -267,15 +232,8 @@ export default function ExplainComponent() {
                   data-bs-parent="#accordionExample"
                 >
                   <div class="accordion-body">
-                    <strong>This is the third item's accordion body.</strong> It
-                    is hidden by default, until the collapse plugin adds the
-                    appropriate classes that we use to style each element. These
-                    classes control the overall appearance, as well as the
-                    showing and hiding via CSS transitions. You can modify any
-                    of this with custom CSS or overriding our default variables.
-                    It's also worth noting that just about any HTML can go
-                    within the <code>.accordion-body</code>, though the
-                    transition does limit overflow.
+                    <strong>Get most valuable insights that help you improve your quality of work and guidance about industry standards</strong>
+                    
                   </div>
                 </div>
               </div>

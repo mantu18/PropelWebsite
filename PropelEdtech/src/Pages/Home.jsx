@@ -10,6 +10,7 @@ import UspComponent from "../Components/UspComponent";
 import nasa from "../assets/images/nasa.gif"
 import '../assets/css/Home.css';
 import NavbarComponent from '../Components/NavbarComponent';
+import NumbersComponent from "../Components/NumbersComponent";
 // import { RightScrollComponent } from "../Components/RightScrollComponent";
 // import astro from '../assets/images/astro.webmp'
 
@@ -20,12 +21,12 @@ export default function Home(){
         <div className="bg">
         <NavbarComponent></NavbarComponent>
         <LandingComponent></LandingComponent>
-        
+        <NumbersComponent></NumbersComponent>
       <TechnologyCard></TechnologyCard>
       {/* <NavbarComponent></NavbarComponent> */}
-      <GlowingCard></GlowingCard>
-      <ExplainComponent></ExplainComponent>
       
+      <ExplainComponent></ExplainComponent>
+      <GlowingCard></GlowingCard>
       {/* <LandingCards></LandingCards> */}
       <Testimonial></Testimonial>
       </div>
